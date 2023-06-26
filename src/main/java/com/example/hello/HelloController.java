@@ -10,13 +10,9 @@ public class HelloController {
 		return "Greetings from TAP, Iterate <a href=/new >here</a> using Spring v3.1!";
 	}
 
-}
-/* 
-@RestController
-public class MyNewController {
-    @RequestMapping("/new")
-	public String index() {
+	@RequestMapping("/new")
+	public String indexnewthing() {
 		return "Here's a new thing";
 	}
 
-}  */
+}
