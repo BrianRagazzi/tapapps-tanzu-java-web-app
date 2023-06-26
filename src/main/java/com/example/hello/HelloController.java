@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
     @RequestMapping("/")
 	public String index() {
-		return "Greetings from TAP, Iterate here using Spring v3.1!";
+		return "Greetings from TAP, Iterate <a href=/new >here</a> using Spring v3.1!";
 	}
 
 }
-
+/* 
 @RestController
 public class HelloController {
     @RequestMapping("/new")
@@ -19,4 +19,4 @@ public class HelloController {
 		return "Here's a new thing";
 	}
 
-}
+} */
