@@ -11,3 +11,12 @@ public class HelloController {
 	}
 
 }
+
+@RestController
+public class HelloController {
+    @RequestMapping("/new")
+	public String index() {
+		return "Here's a new thing";
+	}
+
+}
