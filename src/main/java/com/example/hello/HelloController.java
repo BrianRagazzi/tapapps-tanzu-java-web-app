@@ -11,7 +11,7 @@ public class HelloController {
 	}
 
 }
-/* 
+
 @RestController
 public class HelloController {
     @RequestMapping("/new")
@@ -19,4 +19,4 @@ public class HelloController {
 		return "Here's a new thing";
 	}
 
-} */
+} 
