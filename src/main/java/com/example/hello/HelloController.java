@@ -4,10 +4,19 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-public class HelloController {
+public class GeetingsController {
     @RequestMapping("/")
 	public String index() {
-		return "Greetings from TAP & Spring v3.1, Iterate here!";
+		return "Greetings from TAP & Spring, Iterate here!";
+	}
+
+}
+
+@RestController
+public class HelloController {
+    @RequestMapping("/hello")
+	public String index() {
+		return "Hello there!";
 	}
 
 }
