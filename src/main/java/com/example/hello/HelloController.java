@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
     @RequestMapping("/")
 	public String index() {
-		return "Greetings from TAP, Iterate here!";
+		return "Greetings from TAP & Spring v3.1, Iterate here!";
 	}
 
 }
