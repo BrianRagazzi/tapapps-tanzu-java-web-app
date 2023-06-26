@@ -13,7 +13,7 @@ public class HelloController {
 }
 
 @RestController
-public class HelloController {
+public class MyNewController {
     @RequestMapping("/new")
 	public String index() {
 		return "Here's a new thing";
