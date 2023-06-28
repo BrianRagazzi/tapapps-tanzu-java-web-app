@@ -12,7 +12,7 @@ public class HelloController {
 
 	@RequestMapping("/new")
 	public String indexnewthing() {
-		return "Here's a new thing <a href=../>back</a>";
+		return "Here's a new thing";
 	}
 
 }
